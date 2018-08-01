@@ -20,7 +20,7 @@ int main() {
     srand(time(NULL)); 
     rastgele=rand()%1000;
 
-    printf("\nSayý gir [0-1000] : ");
+    printf("\nSayı gir [0-1000] : ");
 
 
     scanf("%d", &sonTahmin);
@@ -34,7 +34,7 @@ void check() {
     if (sonTahmin == rastgele) {
         system("@cls||clear");
         denemeSayisi++;
-        printf("\nTebrikler! %d sayýsýný %d. denemede buldun.\n\nÇýkmak için herhangi bir tuþa bas.\n", rastgele, denemeSayisi);
+        printf("\nTebrikler! %d sayısını %d. denemede buldun.\n\nÇıkmak için herhangi bir tuşa bas.\n", rastgele, denemeSayisi);
         getch();
     } else 
     
@@ -42,7 +42,7 @@ void check() {
         system("@cls||clear");
         denemeSayisi++;
         asagi();
-        printf("\n\nSayý gir [0-1000] : ");
+        printf("\n\nSayı gir [0-1000] : ");
         scanf("%d", &sonTahmin);
         check();
     } else
@@ -51,7 +51,7 @@ void check() {
         system("@cls||clear");
         denemeSayisi++;
         yukari();
-        printf("\n\nSayý gir [0-1000] : ");
+        printf("\n\nSayı gir [0-1000] : ");
         scanf("%d", &sonTahmin);
         check();
     }
@@ -87,4 +87,4 @@ void asagi() {
     printf("\n         \\    /");
     printf("\n          \\  /");
     printf("\n           \\/");
-} 
+}
