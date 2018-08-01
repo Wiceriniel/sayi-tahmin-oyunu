@@ -1,1 +1,2 @@
-# sayi-tahmin-oyunu
+# Sayı Tahmin Oyunu
+İlk C programım.
